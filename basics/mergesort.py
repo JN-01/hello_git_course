@@ -8,6 +8,7 @@ def debug_print(debug_msg=None, **kwargs):
         print("{}: {}".format(key, value))
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD:origin/basics/mergesort.py
 def mergesort(array):
     if len(array) <= 1:
@@ -40,6 +41,8 @@ def merge(left, right):
 
 =======
 >>>>>>> parent of dd8c56c (Merge-sort):basics/mergesort.py
+=======
+>>>>>>> parent of dd8c56c (Merge-sort)
 if __name__ == "__main__":
     input_str = input("Enter numbers, separated by ',': ")
     input_list = input_str.split(",")
@@ -51,9 +54,13 @@ if __name__ == "__main__":
             print("Invalid input.")
             quit(1)
 
+<<<<<<< HEAD
 <<<<<<< HEAD:origin/basics/mergesort.py
     sorted_list = mergesort(value_list)
     print(sorted_list)
 =======
     debug_print(value_list=value_list)
 >>>>>>> parent of dd8c56c (Merge-sort):basics/mergesort.py
+=======
+    debug_print(value_list=value_list)
+>>>>>>> parent of dd8c56c (Merge-sort)
